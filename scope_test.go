@@ -1,7 +1,7 @@
 package gorm_test
 
 import (
-	"github.com/jinzhu/gorm"
+	"vendor/gorm"
 	"testing"
 )
 

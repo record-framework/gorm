@@ -8,10 +8,10 @@ import (
 
 	_ "github.com/denisenkom/go-mssqldb"
 	testdb "github.com/erikstmartin/go-testdb"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/jinzhu/gorm"
+	_ "vendor/mysql"
+	"vendor/gorm"
 	"github.com/jinzhu/now"
-	_ "github.com/lib/pq"
+	_ "vendor/pq"
 	_ "github.com/mattn/go-sqlite3"
 
 	"os"
